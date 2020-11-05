@@ -1,0 +1,55 @@
+﻿@model Lab04.Helper.SearchParameters
+<h5>Company</h5>
+<div>
+    @foreach(var item in Model.Company)
+    {
+        <input name="Company[]" type="checkbox" value="@item"/>
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>
+<h5>CPU</h5>
+<div>
+    @foreach (var item in Model.CPU)
+    {
+        <input name="CPU[]" type="checkbox" value="@item" />
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>
+<h5>TypeName</h5>
+<div>
+@foreach (var item in Model.TypeName)
+{
+    <input name="TypeName[]" type="checkbox" value="@item" />
+        <span>@item</span>
+        <b>&nbsp;</b>
+}
+</div>
+<h5>Memory</h5>
+<div>
+    @foreach (var item in Model.Memory)
+    {
+        <input name="Memory[]" type="checkbox" value="@item" />
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>
+<h5>OS</h5>
+<div>
+    @foreach (var item in Model.OS)
+    {
+        <input name="OS[]" type="checkbox" value="@item" />
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>
+<h5>ScreenResolution</h5>
+<div>
+    @foreach (var item in Model.ScreenResolution)
+    {
+        <input name="ScreenResolution[]" type="checkbox" value="@item" />
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>

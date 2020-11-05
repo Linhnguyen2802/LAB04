@@ -295,6 +295,8 @@
     <Content Include="Views\Laptop\getCompany.cshtml" />
     <Content Include="Views\Laptop\getCPU.cshtml" />
     <Content Include="Views\Laptop\getRam.cshtml" />
+    <Content Include="Views\Laptop\getInches.cshtml" />
+    <Content Include="Views\Laptop\GetSearchFilter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
